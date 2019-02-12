@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Noto Serif SC', serif;
     background-color: #C6C1BB;
@@ -20,7 +21,6 @@ hr {
     padding: 0;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#FEFAFB), to(#FEFAFB), color-stop(50%, #7E7966));
 }
-
 h1 {
     font-size: 3em;
     color: #7E7966;
@@ -50,11 +50,11 @@ h2 {
 }
 
 .oneven h2, .even h2 {
-    color: #7E7966;
+    font color: #7E7966;
 }
 
 .oneven p, .even p {
-    color: #333331;
+    font color: #333331;
 
 }
 
