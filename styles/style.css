@@ -1,15 +1,24 @@
+body {
+    font-family: 'Noto Serif SC', serif;
+    background-color: #C6C1BB;
+}
+
 main {
     background: #FEFAFB;
     width: 90%;
     margin: auto;
     border-radius: 5px;
-    padding: 2rem 0;
+    padding: 20px;
   }
 
-body {
-    font-family: 'Noto Serif SC', serif;
-    background-color: #C6C1BB;
-
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #7E7966;
+    margin: 1em 0;
+    padding: 0;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#FEFAFB), to(#FEFAFB), color-stop(50%, #7E7966));
 }
 
 h1 {
@@ -17,14 +26,39 @@ h1 {
     color: #7E7966;
     letter-spacing: 2px;
     text-align: center;
+
 }
 
 h2 {
+    font-size:2em;
     color: #333331;
     text-align: center;
+    padding-bottom: 30px;
 }
 
-img {
+.oneven {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+.even {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.oneven h2, .even h2 {
+    color: #7E7966;
+}
+
+.oneven p, .even p {
+    color: #333331;
+
+}
+
+.oneven img, .even img {
     position: relative;
     min-width: 300px;
     max-width: 80%;
@@ -35,3 +69,12 @@ img {
 }
 
 
+
+
+
+@media screen and (max-width: 800px) {
+
+    .oneven, .even {
+        flex-direction: column;
+    }
+}
