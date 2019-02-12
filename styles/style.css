@@ -1,0 +1,37 @@
+main {
+    background: #FEFAFB;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+  }
+
+body {
+    font-family: 'Noto Serif SC', serif;
+    background-color: #C6C1BB;
+
+}
+
+h1 {
+    font-size: 3em;
+    color: #7E7966;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2 {
+    color: #333331;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    min-width: 300px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+
