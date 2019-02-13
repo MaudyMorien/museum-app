@@ -77,10 +77,8 @@ h2 {
     .oneven, .even {
         flex-direction: column;
         display: block;
-        margin: auto;
+        margin: 0 auto;
+        
     }
 
-    .oneven h2, .even h2, .oneven p, .even p {
-        text-align: center;
-    }
 }
