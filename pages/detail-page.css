@@ -1,6 +1,7 @@
 body {
     font-family: 'Noto Serif SC', serif;
     background-color: #C6C1BB;
+    text-align: center;
 }
 
 main {
@@ -23,26 +24,21 @@ hr {
 }
 
 form {
-    position: relative;
-    min-width: 300px;
-    max-width: 80%;
-    height: auto;
     display: block;
     margin: auto;
-    padding: 20px;
 
 }
+
+
 h1 {
     font-size: 3em;
     color: #7E7966;
     letter-spacing: 2px;
-    text-align: center;
 }
 
 h2 {
     font-size:2em;
     color: #333331;
-    text-align: center;
     padding-bottom: 30px;
 }
 
