@@ -1,0 +1,47 @@
+body {
+    font-family: 'Noto Serif SC', serif;
+    background-color: #C6C1BB;
+}
+
+main {
+    background: #FEFAFB;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #7E7966;
+    margin: 1em 0;
+    padding: 0;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#FEFAFB), to(#FEFAFB), color-stop(50%, #7E7966));
+
+}
+
+h2 {
+    font-size:2em;
+    color: #333331;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.oneven {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.oneven img {
+    position: relative;
+    min-width: 300px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
