@@ -6,7 +6,7 @@ function submitComment() {
     const inputField = document.getElementById('name');
     const name = inputField.value;
     const textArea = document.getElementById('msg');
-    let msg = textArea.value;
+    var msg = textArea.value;
     const comment = document.createElement('section');
     const h3 = document.createElement('h3');
     const p = document.createElement('p');
@@ -50,6 +50,6 @@ function doesNotPassAllValidations(name, msg) {
 }
 
 function checkMsgLength(msg) {
-    let msg = document.getElementById('msg').value
+    var msg = document.getElementById('msg').value
     alert(280 - msg.length + ' characters left')
 }
