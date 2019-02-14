@@ -1,6 +1,3 @@
-function submitComment() {
-    console.log("Hello!")
-}
 //add event handler
 
 function submitComment() {
