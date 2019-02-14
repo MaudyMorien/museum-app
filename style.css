@@ -13,14 +13,13 @@ main {
   }
 
 hr {
-    display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #7E7966;
     margin: 1em 0;
     padding: 0;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#FEFAFB), to(#FEFAFB), color-stop(50%, #7E7966));
 }
+
 h1 {
     font-size: 3em;
     color: #7E7966;
